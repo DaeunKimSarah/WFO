@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", // CommonJS 모듈 사용
+    "target": "es6",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"], // src 디렉토리 포함
+  "exclude": ["node_modules"]
+}
+

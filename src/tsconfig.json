@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true, // JSON 모듈 가져오기 허용
+    "strict": true // 선택사항, 엄격한 타입 검사를 사용
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
+
